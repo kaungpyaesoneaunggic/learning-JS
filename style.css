@@ -1,0 +1,25 @@
+#array{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    vertical-align: top;
+    z-index: 12;
+  text-shadow:
+    0 0 7px #000,
+    0 0 10px #000,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+#arrayBG{
+    width: 500px;
+    height: 100px;
+    z-index: 6;
+    background-color: white;
+    vertical-align: bottom;
+    opacity: 10;
+}
+

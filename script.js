@@ -44,7 +44,7 @@ async function changeTheTextAsync() {
     function waitData() {
         return new Promise((resolve) => {
             setTimeout(() => {
-                resolve('Voila Text is now chnaged');
+                resolve('Voila Text is now chnaged after 2 sec interval');
             }, 2000);
         });
     }
@@ -54,8 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-//Methods
 
+
+//
 
 //Mistakes from js
 /*
