@@ -45,7 +45,7 @@ async function changeTheTextAsync() {
         return new Promise((resolve) => {
             setTimeout(() => {
                 resolve('Voila Text is now chnaged');
-            }, 2000); // Simulating a delay of 2 seconds
+            }, 2000);
         });
     }
 }
