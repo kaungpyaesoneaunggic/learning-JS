@@ -18,4 +18,14 @@ console.log(fruits.substring(4, fruits.length));
 
 //Math
 console.log(Math.floor(Math.random()*6)+1);
+console.log(Math.random())//returns 16 digits between 0 and 1
+console.log(Math.floor(Math.random() * (12 - 10 +1) ) + 10) // generate between 12 and 10
+//formula being (Math.floor(Math.random() * (max - min +1) ) + min)
 
+
+//set
+const letters = new Set(["a","b","c"]);
+console.log(letters.add("a")) //couldn't add a to set No same value allowed
+console.log(letters.add("d")) //successfully added
+letters.delete("b")
+console.log(letters)

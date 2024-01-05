@@ -1,6 +1,6 @@
 //Array Testing
-const array=["hello","ohayou","konichiwa","Mingalar pr"];
-document.getElementById("array").innerHTML="the way to greet others are "+array;
+const arrayS=["hello","ohayou","konichiwa","Mingalar pr"];
+document.getElementById("array").innerHTML="the way to greet others are "+arrayS;
 
 
 //Object Testing
@@ -22,6 +22,15 @@ const obj = {
   document.getElementById("map").innerHTML =
       map.get('First Name')+ " is " + map.get('age') + " years old.";
 
+
+  //Array mapping
+  const arrayT=[45,60,52,14,32,95];
+  const arryT2=arrayT.map(mappigFun);
+  console.log(arryT2);
+
+  function mappigFun(value,index,array){
+    return value+index;
+  }
 
   //forLoop
   let one2ten=[]
@@ -65,4 +74,15 @@ document.addEventListener('DOMContentLoaded', () => {
 string and int can be combined. it will concat. "10"+1 is "101"
 
 */
-  
+console.log("1"==1);
+console.log("1"===1);
+console.log("120"+6);
+
+//let vs var
+const i =true;
+if(i===true){
+    let lettest= 1;
+    var vartest=2;
+}
+console.log(lettest);// throws not defined error
+console.log(vartest);
